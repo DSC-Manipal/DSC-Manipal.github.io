@@ -1,1 +1,1 @@
-# DSC-Manipal.github.io
+# dsc-manipal-website

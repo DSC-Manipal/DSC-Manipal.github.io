@@ -1990,9 +1990,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown, .oldie .scrolldown {
     color: rgba(242, 242, 242, 0.8);
 }
 
-#services .services-content {
+#services .service-content {
     text-align: center;
     max-width: 1040px;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    
 }
 
 #services .services-list {
@@ -2006,7 +2010,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown, .oldie .scrolldown {
 }
 
 #services .services-list .service-item p {
-    color: rgba(242, 242, 242, 0.6);
+    color: white;
 }
 
 #services .services-list .icon {
@@ -2371,6 +2375,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown, .oldie .scrolldown {
     background: #FFFFFF;
     padding: 12rem 0 7.8rem;
     text-align: center;
+}
+
+#team .row {
+    display: flex;
+    justify-content: center;
 }
 
 #team h2 {
